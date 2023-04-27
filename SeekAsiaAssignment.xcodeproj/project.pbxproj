@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CBD35E629F67DBD00E87779 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35E529F67DBD00E87779 /* LoginViewModel.swift */; };
+		0CBD35E929F67E1300E87779 /* BaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35E829F67E1300E87779 /* BaseColor.swift */; };
+		0CBD35EB29F6831B00E87779 /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35EA29F6831B00E87779 /* LoginViewModelTest.swift */; };
+		0CBD35F129F6EC8A00E87779 /* JobListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35F029F6EC8A00E87779 /* JobListTableViewController.swift */; };
+		0CBD35F529F6ED0700E87779 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35F429F6ED0700E87779 /* JobTableViewCell.swift */; };
+		0CBD35F729F6F02A00E87779 /* JobListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBD35F629F6F02A00E87779 /* JobListModel.swift */; };
 		0CCB63C529F67876007FA96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63C429F67876007FA96B /* AppDelegate.swift */; };
 		0CCB63C729F67876007FA96B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63C629F67876007FA96B /* SceneDelegate.swift */; };
 		0CCB63C929F67876007FA96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63C829F67876007FA96B /* ViewController.swift */; };
@@ -16,6 +22,11 @@
 		0CCB63DC29F67877007FA96B /* SeekAsiaAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63DB29F67877007FA96B /* SeekAsiaAssignmentTests.swift */; };
 		0CCB63E629F67877007FA96B /* SeekAsiaAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63E529F67877007FA96B /* SeekAsiaAssignmentUITests.swift */; };
 		0CCB63E829F67877007FA96B /* SeekAsiaAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63E729F67877007FA96B /* SeekAsiaAssignmentUITestsLaunchTests.swift */; };
+		0CCB63F829F679D3007FA96B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63F729F679D3007FA96B /* RootViewController.swift */; };
+		0CCB63FA29F67BAA007FA96B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB63F929F67BAA007FA96B /* LoginViewController.swift */; };
+		17D68B27360A1E8117F377AE /* Pods_SeekAsiaAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F142D0468F76DF360F7548C /* Pods_SeekAsiaAssignment.framework */; };
+		440D166BBA58EE2B03E09926 /* Pods_SeekAsiaAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F02922081A36AE9EB159FD /* Pods_SeekAsiaAssignmentTests.framework */; };
+		D90F9306A58634AA8E3D1832 /* Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24138DF10241BBD959A0DC92 /* Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EB833BF8546FACF77B3693 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0CBD35E529F67DBD00E87779 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0CBD35E829F67E1300E87779 /* BaseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColor.swift; sourceTree = "<group>"; };
+		0CBD35EA29F6831B00E87779 /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
+		0CBD35F029F6EC8A00E87779 /* JobListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListTableViewController.swift; sourceTree = "<group>"; };
+		0CBD35F429F6ED0700E87779 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		0CBD35F629F6F02A00E87779 /* JobListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListModel.swift; sourceTree = "<group>"; };
 		0CCB63C129F67876007FA96B /* SeekAsiaAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCB63C429F67876007FA96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CCB63C629F67876007FA96B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		0CCB63E129F67877007FA96B /* SeekAsiaAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCB63E529F67877007FA96B /* SeekAsiaAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekAsiaAssignmentUITests.swift; sourceTree = "<group>"; };
 		0CCB63E729F67877007FA96B /* SeekAsiaAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekAsiaAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CCB63F729F679D3007FA96B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0CCB63F929F67BAA007FA96B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24138DF10241BBD959A0DC92 /* Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142D0468F76DF360F7548C /* Pods_SeekAsiaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33741627A223D6F78D2745E8 /* Pods-SeekAsiaAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignmentTests/Pods-SeekAsiaAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67343698A826BA31C19740A8 /* Pods-SeekAsiaAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignmentTests/Pods-SeekAsiaAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D06FE52B4F14CB84D0EA68B /* Pods-SeekAsiaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignment.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignment/Pods-SeekAsiaAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		E23B7B9566C1524844085383 /* Pods-SeekAsiaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignment.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignment/Pods-SeekAsiaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		E28ADD8728808F67C1A0B658 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4F02922081A36AE9EB159FD /* Pods_SeekAsiaAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D68B27360A1E8117F377AE /* Pods_SeekAsiaAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440D166BBA58EE2B03E09926 /* Pods_SeekAsiaAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90F9306A58634AA8E3D1832 /* Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CBD35E429F67DAD00E87779 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0CCB63F929F67BAA007FA96B /* LoginViewController.swift */,
+				0CBD35E529F67DBD00E87779 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0CBD35E729F67DFE00E87779 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0CBD35E829F67E1300E87779 /* BaseColor.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0CBD35EF29F6EC6800E87779 /* JobListing */ = {
+			isa = PBXGroup;
+			children = (
+				0CBD35F029F6EC8A00E87779 /* JobListTableViewController.swift */,
+				0CBD35F429F6ED0700E87779 /* JobTableViewCell.swift */,
+				0CBD35F629F6F02A00E87779 /* JobListModel.swift */,
+			);
+			path = JobListing;
+			sourceTree = "<group>";
+		};
 		0CCB63B829F67876007FA96B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				0CCB63DA29F67877007FA96B /* SeekAsiaAssignmentTests */,
 				0CCB63E429F67877007FA96B /* SeekAsiaAssignmentUITests */,
 				0CCB63C229F67876007FA96B /* Products */,
+				741F30AB818AF9109AAC644E /* Pods */,
+				1E120216B7F576DDE7CF38DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +159,9 @@
 		0CCB63C329F67876007FA96B /* SeekAsiaAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				0CBD35EF29F6EC6800E87779 /* JobListing */,
+				0CBD35E729F67DFE00E87779 /* Base */,
+				0CBD35E429F67DAD00E87779 /* Login */,
 				0CCB63C429F67876007FA96B /* AppDelegate.swift */,
 				0CCB63C629F67876007FA96B /* SceneDelegate.swift */,
 				0CCB63C829F67876007FA96B /* ViewController.swift */,
@@ -106,6 +169,7 @@
 				0CCB63CD29F67877007FA96B /* Assets.xcassets */,
 				0CCB63CF29F67877007FA96B /* LaunchScreen.storyboard */,
 				0CCB63D229F67877007FA96B /* Info.plist */,
+				0CCB63F729F679D3007FA96B /* RootViewController.swift */,
 			);
 			path = SeekAsiaAssignment;
 			sourceTree = "<group>";
@@ -114,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				0CCB63DB29F67877007FA96B /* SeekAsiaAssignmentTests.swift */,
+				0CBD35EA29F6831B00E87779 /* LoginViewModelTest.swift */,
 			);
 			path = SeekAsiaAssignmentTests;
 			sourceTree = "<group>";
@@ -127,6 +192,29 @@
 			path = SeekAsiaAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		1E120216B7F576DDE7CF38DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F142D0468F76DF360F7548C /* Pods_SeekAsiaAssignment.framework */,
+				24138DF10241BBD959A0DC92 /* Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests.framework */,
+				F4F02922081A36AE9EB159FD /* Pods_SeekAsiaAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741F30AB818AF9109AAC644E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23B7B9566C1524844085383 /* Pods-SeekAsiaAssignment.debug.xcconfig */,
+				7D06FE52B4F14CB84D0EA68B /* Pods-SeekAsiaAssignment.release.xcconfig */,
+				E28ADD8728808F67C1A0B658 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.debug.xcconfig */,
+				09EB833BF8546FACF77B3693 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.release.xcconfig */,
+				33741627A223D6F78D2745E8 /* Pods-SeekAsiaAssignmentTests.debug.xcconfig */,
+				67343698A826BA31C19740A8 /* Pods-SeekAsiaAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCB63EB29F67877007FA96B /* Build configuration list for PBXNativeTarget "SeekAsiaAssignment" */;
 			buildPhases = (
+				1E97DC68E4E254F83C757729 /* [CP] Check Pods Manifest.lock */,
 				0CCB63BD29F67876007FA96B /* Sources */,
 				0CCB63BE29F67876007FA96B /* Frameworks */,
 				0CCB63BF29F67876007FA96B /* Resources */,
+				AA6BAC1276739CC61658C037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCB63EE29F67877007FA96B /* Build configuration list for PBXNativeTarget "SeekAsiaAssignmentTests" */;
 			buildPhases = (
+				61E4102FE768A52551603A91 /* [CP] Check Pods Manifest.lock */,
 				0CCB63D329F67877007FA96B /* Sources */,
 				0CCB63D429F67877007FA96B /* Frameworks */,
 				0CCB63D529F67877007FA96B /* Resources */,
@@ -169,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CCB63F129F67877007FA96B /* Build configuration list for PBXNativeTarget "SeekAsiaAssignmentUITests" */;
 			buildPhases = (
+				6A34A23BC9B8A200C84939D9 /* [CP] Check Pods Manifest.lock */,
 				0CCB63DD29F67877007FA96B /* Sources */,
 				0CCB63DE29F67877007FA96B /* Frameworks */,
 				0CCB63DF29F67877007FA96B /* Resources */,
+				66E19A5D861F07B842C3FA4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +346,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E97DC68E4E254F83C757729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E4102FE768A52551603A91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E19A5D861F07B842C3FA4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A34A23BC9B8A200C84939D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6BAC1276739CC61658C037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment/Pods-SeekAsiaAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment/Pods-SeekAsiaAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssignment/Pods-SeekAsiaAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CCB63BD29F67876007FA96B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +456,13 @@
 			files = (
 				0CCB63C929F67876007FA96B /* ViewController.swift in Sources */,
 				0CCB63C529F67876007FA96B /* AppDelegate.swift in Sources */,
+				0CBD35E629F67DBD00E87779 /* LoginViewModel.swift in Sources */,
+				0CBD35E929F67E1300E87779 /* BaseColor.swift in Sources */,
+				0CBD35F129F6EC8A00E87779 /* JobListTableViewController.swift in Sources */,
+				0CCB63F829F679D3007FA96B /* RootViewController.swift in Sources */,
+				0CCB63FA29F67BAA007FA96B /* LoginViewController.swift in Sources */,
+				0CBD35F529F6ED0700E87779 /* JobTableViewCell.swift in Sources */,
+				0CBD35F729F6F02A00E87779 /* JobListModel.swift in Sources */,
 				0CCB63C729F67876007FA96B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +471,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBD35EB29F6831B00E87779 /* LoginViewModelTest.swift in Sources */,
 				0CCB63DC29F67877007FA96B /* SeekAsiaAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +636,7 @@
 		};
 		0CCB63EC29F67877007FA96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23B7B9566C1524844085383 /* Pods-SeekAsiaAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +650,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +666,7 @@
 		};
 		0CCB63ED29F67877007FA96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D06FE52B4F14CB84D0EA68B /* Pods-SeekAsiaAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +680,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +696,7 @@
 		};
 		0CCB63EF29F67877007FA96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33741627A223D6F78D2745E8 /* Pods-SeekAsiaAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +717,7 @@
 		};
 		0CCB63F029F67877007FA96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67343698A826BA31C19740A8 /* Pods-SeekAsiaAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +738,7 @@
 		};
 		0CCB63F229F67877007FA96B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28ADD8728808F67C1A0B658 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +757,7 @@
 		};
 		0CCB63F329F67877007FA96B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09EB833BF8546FACF77B3693 /* Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

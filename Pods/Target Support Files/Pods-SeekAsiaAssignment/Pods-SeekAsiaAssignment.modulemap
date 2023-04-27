@@ -1,0 +1,6 @@
+framework module Pods_SeekAsiaAssignment {
+  umbrella header "Pods-SeekAsiaAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SeekAsiaAssignment_SeekAsiaAssignmentUITests {
+  umbrella header "Pods-SeekAsiaAssignment-SeekAsiaAssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
